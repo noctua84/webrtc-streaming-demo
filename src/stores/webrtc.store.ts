@@ -28,7 +28,7 @@ export class WebRTCStore {
     constructor() {
         // Initialize WebRTC client with proper config
         const config: WebRTCClientConfig = {
-            signalingServerUrl: import.meta.env.VITE_SIGNALING_SERVER_URL || 'http://localhost:3001',
+            signalingServerUrl: import.meta.env.VITE_SIGNALING_SERVER_URL || 'http://localhost:3000',
         };
 
         this.webRtcClient = new WebRTCClientService(config, {

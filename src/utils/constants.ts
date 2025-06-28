@@ -1,5 +1,5 @@
 export const APP_CONFIG = {
-    DEFAULT_SIGNALING_SERVER: 'http://localhost:3001',
+    DEFAULT_SIGNALING_SERVER: 'http://localhost:3000',
     RTC_CONFIGURATION: {
         iceServers: [
             { urls: 'stun:stun.l.google.com:19302' },
