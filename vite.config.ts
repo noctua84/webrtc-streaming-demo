@@ -10,8 +10,8 @@ export default defineConfig(({ mode }) => {
         : 'http://signaling-server:3000';
 
     const apiTarget = mode === 'development'
-        ? 'http://localhost:3001'
-        : 'http://signaling-server:3001';
+        ? 'http://localhost:3000'
+        : 'http://signaling-server:3000';
 
     return {
       plugins: [react()],
